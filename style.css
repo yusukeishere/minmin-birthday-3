@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* 上下の写真 */
+.fotos {
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.fotos img {
+  display: block;
+  width: calc(100% / 3);
+  height: 218.74px;
+  object-fit: cover;
+}
+
+/* 中央写真 */
+.center {
+  display: flex;
+}
+
+.center img {
+  display: block;
+  width: 20%;
+  height: calc(100% / 4);
+  object-fit: cover;
+}
+
+/* 中央-左 */
+.center-left {
+  /* border: 1px solid blue; */
+  width: 20%;
+}
+
+.center-left img {
+  /* border: 1px solid yellow; */
+  width: 100%;
+}
+
+/* 中央-右 */
+.center-right {
+  /* border: 1px solid pink; */
+  width: 20%;
+}
+
+.center-right img {
+  /* border: 1px solid purple; */
+  width: 100%;
+}
+
+/* 中央-真ん中 */
+main {
+  /* border: 1px solid green; */
+  width: 60%;
+  margin: 40px 0 0;
+}
+
+h1 {
+  margin: 15px auto 0;
+  width: 95%;
+  /* border: 1px solid blue; */
+  padding: 8px 8px;
+}
+
+main .OO {
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+}
+
+main .P {
+  margin: 0;
+  /* border: 1px solid green; */
+  padding: 0 16px;
+}
+
+/* 動画は始めは非表示 */
+.video-container {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: 30px;
+}
+
+#video-box {
+  /* border: 2px solid blue; */
+  display: none;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+#show-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+main .P video {
+  width: 30%;
+  height: 300px;
+  object-fit: cover;
+  /* border: 1px solid brown; */
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+}
