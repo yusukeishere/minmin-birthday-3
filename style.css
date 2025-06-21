@@ -97,12 +97,13 @@ main .P {
   cursor: pointer;
 }
 
-main .P video {
-  width: 30%;
-  height: 300px;
-  object-fit: cover;
+main .P iframe {
+  width: 100%;
+  max-width: 640px;
+  height: 360px;
+  object-fit: contain;
   /* border: 1px solid brown; */
   display: block;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 0;
 }
